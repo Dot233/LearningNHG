@@ -60,7 +60,7 @@ if 'add' in sys.argv:
     print('请输入要添加词汇的信息:')
     type = input('类型(1:假名词汇,2:汉字词汇): ')
     if type != '1' and type != '2':
-        exit();
+        exit()
     elif type == '2':
         word = input('单词: ')
         Gana = input('假名: ')
